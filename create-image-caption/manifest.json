@@ -1,0 +1,9 @@
+{
+  "id": "create-image-caption",
+  "name": "Create Image Caption",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "author": "William A. Costa",
+  "description": "Add captions to images or wrap selected text in a customizable HTML tag.",
+  "isDesktopOnly": false
+}

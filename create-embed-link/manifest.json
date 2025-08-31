@@ -1,0 +1,9 @@
+{
+  "id": "create-embed-link",
+  "name": "Create Embed Link",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "author": "William A. Costa",
+  "description": "Embed YouTube, Spotify, or website links in your notes.",
+  "isDesktopOnly": false
+}

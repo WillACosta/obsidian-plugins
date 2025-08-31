@@ -1,0 +1,16 @@
+{
+  "name": "create-embed-link",
+  "version": "1.0.0",
+  "description": "Embed YouTube, Spotify, or website links in your notes.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild src/main.ts --bundle --watch --outfile=main.js --external:obsidian",
+    "build": "esbuild src/main.ts --bundle --minify --outfile=main.js --external:obsidian --format=cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.21.5",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.4.2"
+  }
+}
